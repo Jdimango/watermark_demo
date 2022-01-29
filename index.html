@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>watermark.js - watermarks in the browser</title>
-  <script src="/scripts/watermark.js"></script>
+  <script src="./scripts/watermark.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Josefin+Slab|Maven+Pro' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
@@ -29,7 +29,7 @@
   <script>
 
     // simple text watermark
-    watermark(['/img/field.jpg'])
+    watermark(['./img/field.jpg'])
       .image(watermark.text.lowerRight(Math.floor(Math.random()*100)+1, '28px serif', '#fff', 0.5))
       .then(function (img) {
         var pre = document.querySelector('#text pre');
