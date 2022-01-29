@@ -118,3 +118,4 @@ This tool certainly shines in admin or CMS environments where you want to genera
 ## Suggestions? Improvements?
 
 Please open issues or pull requests if you have bugs/improvements.
+# watermark_demo
